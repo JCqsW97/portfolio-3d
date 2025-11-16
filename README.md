@@ -6,6 +6,6 @@ It's done thanks to this tutorial:
 
 https://www.youtube.com/watch?v=S9UQItTpwUQ
 
-Took me two hours to set up the project / environment, and create the nav bar.
+Took me two hours and a half to set up the project / environment, and create the nav bar.
 
 
