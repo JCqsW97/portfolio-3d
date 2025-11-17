@@ -10,5 +10,6 @@ Took me two hours and a half to set up the project / environment, and create the
 Took me 1h45 to create the hero text and the parallax background in the hero section
 Took me 1h30 to add the astronaut model, and finish the hero section
 1H10 to create about section first two grids
+1h35 to finish the about section (adding three grids)
 
 
