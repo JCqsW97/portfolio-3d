@@ -13,5 +13,6 @@ Took me 1h30 to add the astronaut model, and finish the hero section
 1h35 to finish the about section (adding three grids)
 1H to begin section projects
 1h20 to end section projects
+about 45mins to do the experiences section
 
 
