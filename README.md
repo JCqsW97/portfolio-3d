@@ -16,5 +16,5 @@ Took me 1h30 to add the astronaut model, and finish the hero section
 about 45mins to do the experiences section
 about 40mins for the skills section
 about 1h45 for the contact section
-
+about 10mins for the footer section - end of tutorial
 
