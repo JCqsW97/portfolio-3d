@@ -15,5 +15,6 @@ Took me 1h30 to add the astronaut model, and finish the hero section
 1h20 to end section projects
 about 45mins to do the experiences section
 about 40mins for the skills section
+about 1h45 for the contact section
 
 
