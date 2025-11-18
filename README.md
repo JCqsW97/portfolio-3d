@@ -17,4 +17,5 @@ about 45mins to do the experiences section
 about 40mins for the skills section
 about 1h45 for the contact section
 about 10mins for the footer section - end of tutorial
+about 10mins ajusting navbar links
 

@@ -5,16 +5,13 @@ function Navigation(){
     return (
         <ul className="nav-ul">
             <li className="nav-li">
-                <a className="nav-link">Home</a>
+                <a className="nav-link" href="#about">About</a>
             </li>
             <li className="nav-li">
-                <a className="nav-link">About</a>
+                <a className="nav-link" href="#projects">Projects</a>
             </li>
             <li className="nav-li">
-                <a className="nav-link">Work</a>
-            </li>
-            <li className="nav-li">
-                <a className="nav-link">Contact</a>
+                <a className="nav-link" href="#contact">Contact</a>
             </li>
         </ul>
     );
