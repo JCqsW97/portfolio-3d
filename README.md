@@ -21,3 +21,4 @@ about 10mins ajusting navbar links
 
 about 20mins to update sections order, change page title and make it dynamic
 about 20mins to add a favicon, make it dynamic
+drawing a favicon, several tries included: 1h30
