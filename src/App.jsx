@@ -7,15 +7,19 @@ import Experiences from "./sections/Experiences";
 import Skills from "./sections/Skills";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
+import usePageVisibility from "./components/usePageVisibility";
 
 const App = () => {
+
+  usePageVisibility();
+
   return <div className="container mx-auto max-w-7xl">
     <Navbar />
     <Hero />
     <About />
-    <Projects />
     <Experiences />
     <Skills />
+    <Projects />
     <Contact />
     <Footer />
   </div>;
