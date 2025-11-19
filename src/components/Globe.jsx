@@ -33,6 +33,7 @@ const GLOBE_CONFIG = {
     { location: [40.7128, -74.006], size: 0.1 },
     { location: [34.6937, 135.5022], size: 0.05 },
     { location: [41.0082, 28.9784], size: 0.06 },
+    { location: [48.0082, 2.9784], size: 0.1, color: [0.5, 0.2, 1]  },
   ],
 }
 
