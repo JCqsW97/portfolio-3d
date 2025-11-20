@@ -7,6 +7,7 @@ import { FrameWorks } from "../components/FrameWorks";
 
 const About = () => {
     const grid2container = useRef();
+    const coloredText = "blue";
     return (
         <section 
             id="about"
@@ -24,7 +25,7 @@ const About = () => {
                     <div className="z-10">
                         <p className="headtext">Hi, I'm Julien Cauquis</p>
                         <p className="subtext">
-                            Over the last lorem ipsim sic dolor et anet
+                            With a deep interest in <span className="text-amber-300">cutting-edge technologies</span> like virtual reality, artificial intelligence, digital twins, and robotics, <br /> my driving force is <span className="text-amber-300">helping individuals</span> improve their outcomes and communication through innovative technologies.
                         </p>
                     </div>
                     <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
@@ -85,17 +86,22 @@ const About = () => {
                 {/* Grid 4 */}
                 <div className="grid-special-color grid-4">
                     <div className="flex flex-col items-center justify-center gap-4 size-full">
-                        <p className="text-center headtext">Do you want to start a project together?</p>
+                        <p className="text-center headtext">Do you want to build a project together?</p>
                         <CopyEmailButton />
                     </div>
                 </div>
                 {/* Grid 5 */}
                 <div className="grid-default-color grid-5">
-                    <div className="z-10 w-[50%]">
+                    <div className="z-10 h-full w-[60%] flex flex-col justify-between">
                         <p className="headtext">Tech Stack</p>
-                        <p className="subtext">I specialize in lorem ipsum sic dolor amet</p>
+                        <p className="subtext">                            
+                            I'm a Software <span className="text-amber-300">Engineer</span> and Project <span className="text-amber-300">Manager</span>, working at the crossroads of technology, science and learning. 
+                        </p>
+                        <p className="subtext">                            
+                            I bring a solid expertise in <span className="text-amber-300">immersive technologies</span> and real-world <span className="text-amber-300">project management</span>. 
+                        </p>
                     </div>
-                    <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
+                    <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[55%] md:scale-125">
                         <FrameWorks />
                     </div>
                 </div>

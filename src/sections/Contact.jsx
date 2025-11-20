@@ -77,7 +77,9 @@ const Contact = () => {
             <div className="flex flex-col items-center justify-center max-w-md p-5 mx-auto border border-white/10 rounded-2xl bg-primary">
                 <div className="flex flex-col items-start w-full gap-5 mb-10">
                     <h2 className="text-heading">Let's Talk</h2>
-                    <p className="font-normal text-neutral-400">WHether you're looking for sic dolor amet hic nan tu demet</p>
+                    <p className="font-normal text-neutral-400">Ready to turn ideas into action?</p> {/*Whether you're looking for someone to make things happen, help you researching and innovating, or have a chat about new techs, let me know!*/} 
+                    <p className="font-normal text-neutral-400">Whether you need a partner for research and innovation, help bringing projects to life, or just want to chat about the latest tech, I'm here to help.</p>
+                    <p className="font-normal text-neutral-400">Reach out and let's get started!</p>
                 </div>
                 <form className="w-full" onSubmit={handleSubmit}>
                     <div className="mb-5">

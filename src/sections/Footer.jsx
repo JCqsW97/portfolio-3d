@@ -1,13 +1,10 @@
-import { a } from "motion/react-client";
 import { mySocials } from "../constants";
 
 const Footer = () => {
     return (
-        <section className="flex flex-wrap items-center justify-between gap-5 pb-3 text-sm text-neutral-400">
+        <section className="flex flex-wrap justify-between items-center gap-5 pb-3 text-sm text-neutral-400">
             <div className="mb- bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />
-            <div className="flex gap-2">
-                <p>Terms & Conditions</p>
-                <p>|</p>
+            <div className="gap-2 w-[30%] text-left">
                 <p>Privacy</p>
             </div>
             <div className="flex gap-3">
@@ -17,7 +14,9 @@ const Footer = () => {
                     </a>
                 ))}
             </div>
-            <p>© 2025 Julien. All rights reserved.</p>
+            <div className="gap-2 w-[30%] text-right">
+                <p>© 2025 Julien Cauquis. All rights reserved.</p>
+            </div>
         </section>
     );
 };
