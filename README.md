@@ -25,3 +25,4 @@ drawing a favicon, several tries included: 1h30
 10min to add a marker on the globe and change its color
 1h15 to refine texts in hero, about, and contact sections. Plus adjust footer
 15mins footer and contact updated
+1h to update work experience section

@@ -1,7 +1,6 @@
 "use client";;
 import { useScroll, useTransform, motion } from "motion/react";
-import { p } from "motion/react-client";
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export const Timeline = ({
   data
@@ -39,16 +38,26 @@ export const Timeline = ({
                             <div className="h-4 w-4 rounded-full bg-neutral-800 border border-neutral-700 p-2" />
                         </div>
                         <div className="flex-col hidden gap-2 text-xl font-bold md:flex md:pl-20 md:text-4xl text-neutral-300">
-                            <h3> {item.date} </h3>
-                            <h3 className="text-3xl text-neutral-400"> {item.title} </h3>
-                            <h3 className="text-3xl text-neutral-500"> {item.job} </h3>
+                            <h3> {item.title} </h3>
+                            <h3 className="text-3xl text-neutral-400"> {item.job} </h3>
+                            <h3 className="text-3xl text-neutral-500"> {item.employer} </h3>
+                            <h3 className="text-3xl text-neutral-300"> {item.date} </h3>
+                            <h3 className="text-2xl text-neutral-400"> {item.location} </h3>
+                            <h3 className="text-2xl text-neutral-500"> {item.duration} </h3>
+                            
                         </div>
                     </div>
 
                     <div className="relative pl-20 pr-4 md:pl-4 w-full">
                         <div className="block mb-4 text-2xl font-bold text-left text-neutral-300 md:hidden">
-                            <h3> {item.date} </h3>
-                            <h3> {item.job} </h3>
+                            <div class="grid grid-cols-2 items-center gap-4">
+                                <div className="text-3xl"> {item.title} </div>
+                                <div class="text-right mr-4"> {item.job} </div>
+                                <div className="text-neutral-400"> {item.employer} </div>
+                                <div class="text-right mr-4 text-neutral-400"> {item.location} </div>
+                                <div className="text-xl text-neutral-500"> {item.date} </div>
+                                <div class="text-xl text-right mr-4 text-neutral-500"> {item.duration} </div>
+                            </div>
                         </div>
                         {item.contents.map((content, index) => (
                             <p
