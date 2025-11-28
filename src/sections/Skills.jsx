@@ -1,11 +1,11 @@
 import { twMerge } from "tailwind-merge";
 import { Marquee } from "../components/Marquee";
-import { reviews } from "../constants";
+import { skills } from "../constants";
 
-const firstRow = reviews.slice(0, reviews.length / 2)
-const secondRow = reviews.slice(reviews.length / 2)
+const firstRow = skills.slice(0, skills.length / 2)
+const secondRow = skills.slice(skills.length / 2)
 
-const ReviewCard = ({
+const SkillCard = ({
   img,
   name,
   username,
@@ -38,13 +38,13 @@ export default function Skills() {
         <h3 className="text-3xl text-neutral-500"> and Hobbies </h3>
         <div className="relative flex w-full flex-col items-center justify-center overflow-hidden mt-12">
       <Marquee pauseOnHover className="[--duration:20s]">
-        {firstRow.map((review) => (
-          <ReviewCard key={review.username} {...review} />
+        {firstRow.map((skill) => (
+          <SkillCard key={skill.username} {...skill} />
         ))}
       </Marquee>
       <Marquee reverse pauseOnHover className="[--duration:20s]">
-        {secondRow.map((review) => (
-          <ReviewCard key={review.username} {...review} />
+        {secondRow.map((skill) => (
+          <SkillCard key={skill.username} {...skill} />
         ))}
       </Marquee>
       <div className="from-primary pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r"></div>

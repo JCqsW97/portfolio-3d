@@ -34,7 +34,7 @@ const About = () => {
                 <div className="grid-default-color grid-2">
                     <div ref={grid2container} className="flex items-center justify-center w-full h-full">
                         <p className="flex items-end text-5xl text-gray-500">
-                            CODE IS CRAFT
+                            #COUTEAU_SUISSE
                         </p>
                         <Card 
                             text="TEST"
