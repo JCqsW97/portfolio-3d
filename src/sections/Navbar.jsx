@@ -1,17 +1,18 @@
 import { useState } from "react";
 import { motion } from "motion/react";
+import { HashLink } from 'react-router-hash-link';
 
 function Navigation(){
     return (
         <ul className="nav-ul">
             <li className="nav-li">
-                <a className="nav-link" href="#about">About</a>
+                <HashLink className="nav-link" to="/#about">About</HashLink>
             </li>
             <li className="nav-li">
-                <a className="nav-link" href="#projects">Projects</a>
+                <HashLink className="nav-link" to="/#projects">Projects</HashLink>
             </li>
             <li className="nav-li">
-                <a className="nav-link" href="#contact">Contact</a>
+                <HashLink className="nav-link" to="/#contact">Contact</HashLink>
             </li>
         </ul>
     );
