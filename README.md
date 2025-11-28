@@ -29,4 +29,4 @@ drawing a favicon, several tries included: 1h30
 about 40 mins dealing with experiences section
 1h45 spent working on work experiences, skills, about section
 1h20 working on adding pages, make it work with sections across pages
-2h10 working on navigation bar for small screens, handling blur effects and user inputs
+2h10 working on navigation bar for small screens, handling blur effects and user inputs + privacy
