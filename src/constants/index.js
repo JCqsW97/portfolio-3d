@@ -1,14 +1,14 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Virtual Training",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "Investigating the influence of props mass on learning outcomes thanks to an immersive training application.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Built a VR training application with Unity (C#), to simulate machining tasks such as cutting, drilling, and sanding.",
+      "Used Blender and Substance Painter for 3d modelling and texturing, Unity for lighting thanks to custom shaders.",
+      "Designed and manufacture tangible interfaces similar to actual rotary tools using 3D printing.",
+      "Set a motion capture studio to effectively track user movements in space.",
     ],
     href: "",
     logo: "",
@@ -16,36 +16,36 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "C#",
+        name: "Unity",
         path: "/assets/logos/csharp.svg",
       },
       {
         id: 2,
-        name: ".Net",
+        name: "Blender",
         path: "/assets/logos/dotnet.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
+        name: "Substance Painter",
         path: "/assets/logos/efcore.png",
       },
       {
         id: 4,
-        name: "TailwindCSS",
+        name: "Motive",
         path: "/assets/logos/tailwindcss.svg",
       },
     ],
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "InMoov - Robotic Arm",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "This project, based on the first Open Source prosthetic hand, is about creating a robotic arm using materials available available for anyone.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Assembled a 3D printer kit, tuned it to process mechanical parts ready to assemble.",
+      "Selected electronic components and motorization depending on parts characteristics.",
+      "Built the hand and arm.",
+      "Controlled the movement of the fingers and the hand thanks to an Arduino board.",
     ],
     href: "",
     logo: "",
@@ -53,22 +53,22 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "Auth0",
+        name: "Solidworks",
         path: "/assets/logos/auth0.svg",
       },
       {
         id: 2,
-        name: "React",
+        name: "Cura",
         path: "/assets/logos/react.svg",
       },
       {
         id: 3,
-        name: "SQLite",
+        name: "Dagom'App",
         path: "/assets/logos/sqlite.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
+        name: "Arduino",
         path: "/assets/logos/tailwindcss.svg",
       },
     ],
@@ -225,17 +225,17 @@ export const myProjects = [
 
 export const mySocials = [
   {
-    name: "WhatsApp",
-    href: "",
+    name: "GitHub",
+    href: "oulalal",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://fr.linkedin.com/in/julien-cauquis-w97cl218",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
-    name: "Instagram",
+    name: "ArtStation",
     href: "https://www.instagram.com/ali.sanatidev/reels/",
     icon: "/assets/socials/instagram.svg",
   },

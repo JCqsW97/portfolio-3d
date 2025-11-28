@@ -37,22 +37,22 @@ const About = () => {
                             #COUTEAU_SUISSE
                         </p>
                         <Card 
-                            text="TEST"
+                            text="Learning"
                             style={{ rotate: "75deg", top: "30%", left: "20%" }}
                             containerRef={grid2container}
                         />
                         <Card 
-                            text="SOLID"
+                            text="Powerpoint"
                             style={{ rotate: "-55deg", top: "10%", left: "90%" }}
                             containerRef={grid2container}
                         />
                         <Card 
-                            text="LIQUID"
+                            text="Electronics"
                             style={{ rotate: "7deg", top: "3%", left: "50%" }}
                             containerRef={grid2container}
                         />
                         <Card 
-                            text="GAS"
+                            text="Reflecting"
                             style={{ rotate: "-75deg", top: "60%", left: "27%" }}
                             containerRef={grid2container}
                         />
