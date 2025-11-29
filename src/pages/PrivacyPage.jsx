@@ -1,7 +1,7 @@
 const PrivacyPage = () => {
     return (
-        <div 
-            className="p-10 relative"
+        <section 
+            className="p-10 relative section-spacing"
             id="privacy"
         >
             <div className="privacy-heading mb-8">
@@ -46,9 +46,9 @@ const PrivacyPage = () => {
                 </p>
             </div>
             <div className="absolute bottom-0">
-                <p>Dernière mise à jour : 28 Novembre 2025</p>
+                <p>Dernière mise à jour du site : 29 Novembre 2025</p>
             </div>
-        </div>
+        </section>
   );
 }
 

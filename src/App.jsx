@@ -1,17 +1,12 @@
-import React from "react";
-import Navbar from "./sections/navbar";
-import Hero from "./sections/Hero";
-import About from "./sections/About";
-import Projects from "./sections/Projects";
-import Experiences from "./sections/Experiences";
-import Skills from "./sections/Skills";
-import Contact from "./sections/Contact";
+import Navbar from "./sections/Navbar";
 import Footer from "./sections/Footer";
 import usePageVisibility from "./components/usePageVisibility";
 
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import PrivacyPage from "./pages/PrivacyPage";
+
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
 
@@ -29,6 +24,7 @@ const App = () => {
     <div className="">
       <Footer />
     </div>
+    <ScrollToTop />
   </div>
   );
 };

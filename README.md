@@ -31,3 +31,4 @@ about 40 mins dealing with experiences section
 1h20 working on adding pages, make it work with sections across pages
 2h10 working on navigation bar for small screens, handling blur effects and user inputs + privacy
 2h20 working on project, project details and so on. Sticky position is tricky...
+1h to handle the scroll to top when changing page, and twicking project preview image position
