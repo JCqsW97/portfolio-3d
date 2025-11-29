@@ -1,5 +1,3 @@
-"use client"
-
 import { useEffect, useRef } from "react"
 import createGlobe from "cobe"
 import { useMotionValue, useSpring } from "motion/react"

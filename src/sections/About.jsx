@@ -1,4 +1,3 @@
-import { rotate } from "three/tsl";
 import Card from "../components/Card";
 import { useRef } from "react";
 import { Globe } from "../components/Globe";
@@ -6,8 +5,7 @@ import CopyEmailButton from "../components/CopyEmailButton";
 import { FrameWorks } from "../components/FrameWorks";
 
 const About = () => {
-    const grid2container = useRef();
-    const coloredText = "blue";
+    const grid2container = useRef(null);
     return (
         <section 
             id="about"
@@ -33,43 +31,50 @@ const About = () => {
                 {/* Grid 2 */}
                 <div className="grid-default-color grid-2">
                     <div ref={grid2container} className="flex items-center justify-center w-full h-full">
-                        <p className="flex items-end text-5xl text-gray-500">
-                            #COUTEAU_SUISSE
+                        <p className="flex items-end text-5xl text-gray-500 text-center">
+                            #Engineer <br />
+                            #COUTEAU SUISSE <br />
+                            #PhD
                         </p>
                         <Card 
                             text="Learning"
-                            style={{ rotate: "75deg", top: "30%", left: "20%" }}
-                            containerRef={grid2container}
+                            style={{ rotate: "15deg", top: "10%", left: "65%" }}
+                            //containerRef={grid2container}
                         />
                         <Card 
-                            text="Powerpoint"
-                            style={{ rotate: "-55deg", top: "10%", left: "90%" }}
-                            containerRef={grid2container}
+                            text="Mechanics"
+                            style={{ rotate: "-55deg", top: "50%", left: "50%" }}
+                            //containerRef={grid2container}
                         />
                         <Card 
                             text="Electronics"
-                            style={{ rotate: "7deg", top: "3%", left: "50%" }}
+                            style={{ rotate: "-17deg", top: "70%", left: "67%" }}
+                            //containerRef={grid2container}
+                        />
+                        <Card 
+                            text="Thinking"
+                            style={{ rotate: "-75deg", top: "30%", left: "2%" }}
                             containerRef={grid2container}
                         />
                         <Card 
-                            text="Reflecting"
-                            style={{ rotate: "-75deg", top: "60%", left: "27%" }}
+                            text="Technologies"
+                            style={{ rotate: "67deg", top: "30%", left: "20%" }}
+                            //containerRef={grid2container}
+                        />
+                        <Card 
+                            image="assets/logos/unity.svg"
+                            style={{ rotate: "67deg", top: "70%", left: "20%" }}
                             containerRef={grid2container}
                         />
                         <Card 
-                            text="WATER"
-                            style={{ rotate: "67deg", top: "30%", left: "70%" }}
-                            containerRef={grid2container}
+                            image="assets/logos/solidworks.svg"
+                            style={{ rotate: "-37deg", top: "70%", left: "39%" }}
+                            //containerRef={grid2container}
                         />
                         <Card 
-                            image="assets/logos/csharp-pink.png"
-                            style={{ rotate: "67deg", top: "30%", left: "70%" }}
-                            containerRef={grid2container}
-                        />
-                        <Card 
-                            image="assets/logos/dotnet-pink.png"
-                            style={{ rotate: "-37deg", top: "30%", left: "79%" }}
-                            containerRef={grid2container}
+                            image="assets/logos/planner.svg"
+                            style={{ rotate: "37deg", top: "15%", left: "45%" }}
+                            //containerRef={grid2container}
                         />
                     </div>
                 </div>

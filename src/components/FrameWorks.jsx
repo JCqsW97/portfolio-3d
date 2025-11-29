@@ -3,22 +3,22 @@ import { OrbitingCircles } from "./OrbitingCircles"
 export function FrameWorks() {
 
     const skills = [
-        "auth0",
-        "blazor",
-        "cplusplus",
+        "google",
+        "visualstudiocode",
+        "powerpoint",
         "csharp",
-        "css3",
-        "dotnet",
-        "dotnetcore",
+        "inkscape",
+        "threedsmax",
+        "excel",
         "git",
-        "html5",
-        "javascript",
-        "microsoft",
-        "react",
-        "sqlite",
+        "python",
+        "r",
+        "arduino",
+        "matlab",
+        "ansys",
         "tailwindcss",
-        "vitejs",
-        "wordpress",
+        "react",
+        "spyder",
     ];
 
     return (

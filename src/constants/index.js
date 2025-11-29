@@ -1,9 +1,9 @@
 export const myProjects = [
   {
     id: 1,
-    title: "Virtual Training",
+    title: "Virtual Reality Training",
     description:
-      "Investigating the influence of props mass on learning outcomes thanks to an immersive training application.",
+      "Investigating the influence of props mass on learning outcomes thanks to an immersive virtual reality training application.",
     subDescription: [
       "Built a VR training application with Unity (C#), to simulate machining tasks such as cutting, drilling, and sanding.",
       "Used Blender and Substance Painter for 3d modelling and texturing, Unity for lighting thanks to custom shaders.",
@@ -17,22 +17,22 @@ export const myProjects = [
       {
         id: 1,
         name: "Unity",
-        path: "/assets/logos/csharp.svg",
+        path: "/assets/logos/unity.svg",
       },
       {
         id: 2,
         name: "Blender",
-        path: "/assets/logos/dotnet.svg",
+        path: "/assets/logos/blender.svg",
       },
       {
         id: 3,
         name: "Substance Painter",
-        path: "/assets/logos/efcore.png",
+        path: "/assets/logos/substance.svg",
       },
       {
         id: 4,
         name: "Motive",
-        path: "/assets/logos/tailwindcss.svg",
+        path: "/assets/logos/motive.svg",
       },
     ],
   },
@@ -40,9 +40,9 @@ export const myProjects = [
     id: 2,
     title: "InMoov - Robotic Arm",
     description:
-      "This project, based on the first Open Source prosthetic hand, is about creating a robotic arm using materials available available for anyone.",
+      "This project, based on the first Open Source prosthetic hand, is about creating a robotic arm using ressources available for anyone.",
     subDescription: [
-      "Assembled a 3D printer kit, tuned it to process mechanical parts ready to assemble.",
+      "Assembled a 3D printer kit, tuned it to process mechanical parts ready to be assembled.",
       "Selected electronic components and motorization depending on parts characteristics.",
       "Built the hand and arm.",
       "Controlled the movement of the fingers and the hand thanks to an Arduino board.",
@@ -54,35 +54,36 @@ export const myProjects = [
       {
         id: 1,
         name: "Solidworks",
-        path: "/assets/logos/auth0.svg",
+        path: "/assets/logos/solidworks.svg",
       },
       {
         id: 2,
         name: "Cura",
-        path: "/assets/logos/react.svg",
+        path: "/assets/logos/cura.svg",
       },
       {
         id: 3,
         name: "Dagom'App",
-        path: "/assets/logos/sqlite.svg",
+        path: "/assets/logos/dagoma.svg",
       },
       {
         id: 4,
         name: "Arduino",
-        path: "/assets/logos/tailwindcss.svg",
+        path: "/assets/logos/arduino.svg",
       },
     ],
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Contacts with Virtual Objects",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "In eXtended Reality (XR), the perception of contacts between two virtual objects can be difficult due to the lack of haptic feedback.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Proposed a design space to help designing visual feedback for contact representation in XR.",
+      "Built a set of visual feedback based on this design space.",
+      "Implemented an Augmented Reality application to test them.",
+      "Conducted a user study to assess those visual feeback.",
+      "Published the resuls in an international conference.",
     ],
     href: "",
     logo: "",
@@ -90,36 +91,35 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "Unity",
+        path: "/assets/logos/unity.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
+        name: "Visual Studio",
+        path: "/assets/logos/visualstudio.svg",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "TeXmaker",
+        path: "/assets/logos/texmaker.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "HoloLens 2",
+        path: "/assets/logos/microsoft.svg",
       },
     ],
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "Crystal Shader",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "A lightweight shader to simulate the aspect of a crystal-like material inside a virtual environment.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Designed a crystal solid based on ideal cut diamond proportions.",
+      "Developed a shader using a caustic approach to simulate light through the material.",
+      "Proposed an approach to take into account the influence of a directional light on the reflections.",
     ],
     href: "",
     logo: "",
@@ -127,36 +127,27 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
+        name: "Blender",
+        path: "/assets/logos/blender.svg",
       },
       {
         id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
+        name: "Unity",
+        path: "/assets/logos/unity.svg",
       },
     ],
   },
   {
     id: 5,
-    title: "WordPress Custom Theme",
+    title: "Water Filter System",
     description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
+      "Project conducted with a Texan team to solve a quench tank filtration problem for Tenaris.",
     subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
+      "Tenaris, world leading manufacturer of pipes, manufacturers a heat treated coiled tubing product.",
+      "During the quenching process, large amounts of mill scale are formed and accumulate in the lower quench tank.",
+      "A cleaning process thus is required roughly bi-monthly, with an associated cost of close to $20,000.",
+      "A team of five Engineer students from the US and France had to investigate this issue.",
+      "We proposed a solution to tackle this problem, and provided Tenaris with an economic analysis to implement it.",
     ],
     href: "",
     logo: "",
@@ -164,36 +155,31 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
+        name: "Google",
+        path: "/assets/logos/google.svg",
       },
       {
         id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
+        name: "Solidworks",
+        path: "/assets/logos/solidworks.svg",
       },
       {
         id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
+        name: "Edraw Max",
+        path: "/assets/logos/edrawmax.svg",
       },
     ],
   },
   {
     id: 6,
-    title: "Online Learning Platform",
+    title: "My PhD Thesis",
     description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+      "Optimizing Sensory Feedback and Manual Interaction Efficiency within XR Experiments.",
     subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
+      "This is the result of almost four years of projects and research investigations on said topic.",
+      "Four research questions, based on industry and academic partners problems were investigated.",
+      "Two papers were published before the defense, one in an international conference, the other in an international journal.",
+      "All results are open source and available online.",
     ],
     href: "",
     logo: "",
@@ -201,44 +187,44 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "Patience",
+        path: "/assets/logos/zotero.svg",
       },
       {
         id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
+        name: "Rigor",
+        path: "/assets/logos/xmind.svg",
       },
       {
         id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
+        name: "Determination",
+        path: "/assets/logos/unity.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "Resilience",
+        path: "/assets/logos/overleaf.svg",
       },
     ],
   },
 ];
 
 export const mySocials = [
-  {
+  /*{
     name: "GitHub",
-    href: "oulalal",
-    icon: "/assets/socials/whatsApp.svg",
-  },
+    href: "https://github.com/JCqsW97",
+    icon: "/assets/socials/github.svg",
+  },*/
   {
     name: "Linkedin",
     href: "https://fr.linkedin.com/in/julien-cauquis-w97cl218",
     icon: "/assets/socials/linkedIn.svg",
   },
-  {
+  /*{
     name: "ArtStation",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: "/assets/socials/instagram.svg",
-  },
+    href: "https://herk.artstation.com/",
+    icon: "/assets/socials/artstation.svg",
+  },*/
 ];
 
 export const experiences = [
@@ -294,72 +280,72 @@ export const skills = [
     name: "Writing",
     username: "Formal and Technical",
     body: "I've written a thesis, but can write more basic things such as meeting notes or documentation.",
-    img: "https://robohash.org/jack",
+    img: "assets/logos/writing.svg",
   },
   {
     name: "Programming",
     username: "Fluent in Computer languages",
     body: "C#, Python, R, LaTeX, SQL, html, css, js, etc.",
-    img: "https://robohash.org/jill",
+    img: "assets/logos/visualstudiocode.svg",
   },
   {
     name: "Web Development",
     username: "and Design",
     body: "Have a look at this website. Built using React, JavaScript and Love.",
-    img: "https://robohash.org/john",
+    img: "assets/logos/wordpress.svg",
   },
   {
     name: "CAD",
     username: "Computer Aided Design",
     body: "I know how to engineer products and put them on a 2D perspective.",
-    img: "https://robohash.org/alice",
+    img: "assets/logos/solidworks.svg",
   },
   {
     name: "3D Printing",
     username: "#DIY",
     body: "Experienced with 3D printers, PLA, slicing and topology optimization.",
-    img: "https://robohash.org/bob",
+    img: "assets/logos/cura.svg",
   },
   {
     name: "Manufacturing",
     username: "Custom Processes",
     body: "Knowledgeable about concepts and principles of additive and subtractive processes.",
-    img: "https://robohash.org/charlie",
+    img: "assets/logos/gear.svg",
   },
   {
     name: "Project Management",
     username: "Planification and so on",
     body: "Doing the right things, and doing them right.",
-    img: "https://robohash.org/dave",
+    img: "assets/logos/planner.svg",
   },
   {
     name: "Motion Capture",
     username: "Optical tracking",
     body: "I've installed and used OptiTrack studios, also worked with Antilatency, ART, etc.",
-    img: "https://robohash.org/eve",
+    img: "assets/logos/motive.svg",
   },
   {
     name: "Engineer Sciences",
     username: "and Sciences in global",
     body: "I like figures and know how to use them to design mechanical and physical systems.",
-    img: "https://robohash.org/eve",
+    img: "assets/logos/sciences.svg",
   },
   {
     name: "Immersive Technologies",
     username: "XR",
     body: "Virtual, Augmented, and Mixed Realities are one of my expertises.",
-    img: "https://robohash.org/eve",
+    img: "assets/logos/immersive.svg",
   },
   {
     name: "Statistics",
     username: "Data Analysis",
     body: "Proficient using parametric and non-parametric-tests.",
-    img: "https://robohash.org/eve",
+    img: "assets/logos/statistics.svg",
   },
   {
     name: "Teamwork",
     username: "as Leader and Team member",
     body: "Worked in team since childhood, in sports, school, and work.",
-    img: "https://robohash.org/eve",
+    img: "assets/logos/teamwork.svg",
   },
 ];
