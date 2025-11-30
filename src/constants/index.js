@@ -12,7 +12,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/vrtraining.jpg",
     tags: [
       {
         id: 1,
@@ -49,7 +49,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/inmoov.jpg",
     tags: [
       {
         id: 1,
@@ -87,7 +87,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/virtualcontact.jpg",
     tags: [
       {
         id: 1,
@@ -123,7 +123,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/crystalshader.jpg",
     tags: [
       {
         id: 1,
@@ -151,7 +151,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
+    image: "/assets/projects/waterfiltersystem.jpg",
     tags: [
       {
         id: 1,
@@ -181,9 +181,9 @@ export const myProjects = [
       "Two papers were published before the defense, one in an international conference, the other in an international journal.",
       "All results are open source and available online.",
     ],
-    href: "",
+    href: "https://theses.hal.science/tel-05268369",
     logo: "",
-    image: "/assets/projects/elearning.jpg",
+    image: "/assets/projects/thesis.jpg",
     tags: [
       {
         id: 1,
