@@ -34,3 +34,4 @@ about 40 mins dealing with experiences section
 1h to handle the scroll to top when changing page, and twicking project preview image position
 5h12 to update a lot of stuff... a problem with the dragable elements, related to containers + updated logos everywhere + pitch projects
 3h15 to finish, plus trying to deploy
+1h30 to try to deploy a fresh new app, and learn a few things about github pages deployment
